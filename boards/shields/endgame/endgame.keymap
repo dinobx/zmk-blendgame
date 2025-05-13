@@ -36,7 +36,7 @@
                 &kp V          &kp W          &kp F          &kp P          &kp B          &kp J          &kp L          &kp DE_Y       &kp U          &kp DE_Z
                 &hl LCTRL R    &hl LALT S     &hl LGUI T     &hl LSHFT H    &hl RALT K     &hr RALT X     &hr RSHFT N    &hr RGUI A     &hr LALT I     &hr RCTRL O
                 &kp Q          &kp C          &kp G          &kp D          &kp B          &kp X          &kp M          &kp DE_COMMA   &kp DE_DOT     &kp DE_MINUS
-                &trans                                    &my_lt DE ESC  &my_lt NAV SPACE  &my_lt SYM E  &my_lt NUM ENTER                              &trans
+                &trans                                    &my_lt DE ESC  &my_lt NAV SPACE  &my_lt SYM E  &my_lt NUM TAB                                &trans
             >;
         };
         numbers {
@@ -63,9 +63,9 @@
             label = "SYM";
 
             bindings = <
-                &kp DE_ACUTE   &kp DE_GRAVE   &kp DE_LBKT    &kp DE_RBKT      &kp DE_QMARK   &kp DE_EXCL     &kp DE_APOS    &kp DE_DQT     &kp DE_CARET   &trans
+                &kp DE_ACUTE   &kp DE_GRAVE   &kp DE_LBKT    &kp DE_RBKT      &kp DE_QMARK   &kp DE_EXCL     &kp DE_APOS    &kp DE_DQT     &kp DE_CARET   &kp DE_HASH
                 &kp DE_BSLH    &kp DE_AT      &kp DE_LPAR    &kp DE_RPAR      &kp DE_TILDE   &kp DE_EQUAL    &kp DE_PLUS    &kp DE_MINUS   &kp DE_STAR    &kp DE_FSLH
-                &trans         &kp DE_TILDE   &kp DE_LBRC    &kp DE_RBRC      &trans         &trans          &kp DE_LT      &kp DE_GT      &kp DE_PIPE    &trans
+                &trans         &kp DE_TILDE   &kp DE_LBRC    &kp DE_RBRC      &trans         &kp DE_QMARK    &kp DE_LT      &kp DE_GT      &kp DE_PIPE    &trans
                 &trans                                       &trans           &trans         &trans          &trans                                       &trans
             >;
         };
