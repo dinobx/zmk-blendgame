@@ -5,10 +5,9 @@
 #include "keys_de.h"
 
 #define QWE 0
-#define NUM 1
-#define NAV 2
-#define SYM 3
-#define DE 4
+#define FUN 1
+#define SYM 2
+#define NAV 3
 
 // &lt {
 //     quick_tap_ms = <170>;
