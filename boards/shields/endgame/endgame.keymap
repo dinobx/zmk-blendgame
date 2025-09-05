@@ -14,6 +14,21 @@
     continue-list = <UNDERSCORE MINUS BSPC DEL>;
 };
 
+/ {
+    combos {
+        compatible = "zmk,combos";
+        combo_esc {
+            timeout-ms = <27>;
+            key-positions = <0 1>;
+            bindings = <&kp ESC>;
+        };
+        combo_enter {
+            timeout-ms = <27>;
+            key-positions = <17 18>;
+            bindings = <&kp ENTER>;
+        };
+    };
+};
 
 / {
     chosen {
@@ -53,10 +68,10 @@
             label = "SYM";
 
             bindings = <
-                &kp Q        &kp N7 &kp N8 &kp N9 &kp EQUAL         &trans &kp GRAVE &kp LPAR &kp RPAR &trans
-                &kp N0       &kp N4 &kp N5 &kp N6 &kp MINUS         &trans &kp SQT   &kp LBRC &kp RBRC &trans
-                &kp KP_SLASH &kp N1 &kp N2 &kp N3 &kp KP_DOT        &trans &kp NUBS  &kp LBKT &kp RBKT &trans
-                &trans                         &trans &trans        &trans &trans                      &trans
+                &kp Q               &kp N7 &kp N8 &kp N9 &kp EQUAL         &trans &kp GRAVE &kp LPAR &kp RPAR &trans
+                &my_lt NAV N0       &kp N4 &kp N5 &kp N6 &kp MINUS         &trans &kp SQT   &kp LBRC &kp RBRC &trans
+                &mt LSHIFT KP_SLASH &kp N1 &kp N2 &kp N3 &kp KP_DOT        &trans &kp NUBS  &kp LBKT &kp RBKT &trans
+                &trans                            &trans &trans            &trans &trans                      &trans
             >;
         };
         navigation {

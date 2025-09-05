@@ -46,36 +46,6 @@
   };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-/* usually on base layer */
-        COMBO(q, &kp Q, 2 3)
-        COMBO(z, &kp DE_Z, 21 22)
-        COMBO(v, &kp V, 1 2)
-        COMBO(b, &kp B, 12 3)
-        COMBO(k, &kp K, 12 13)
-        COMBO(x, &kp X, 16 17)
-        COMBO(j, &kp J, 6 17)
-        COMBO(sch, &macro_sch, 11 13)
-        COMBO(_sz, &kp DE_SZ, 33 11)
-        COMBO(_ue, &kp DE_UE, 33 8)
-        COMBO(_ae, &kp DE_AE, 33 17)
-        COMBO(_oe, &kp DE_OE, 33 19)
-        COMBO(ent, &kp ENTER, 26 27)
-        COMBO(esc, &kp ESC, 23 24)
-/* caps */
-        COMBO(capsword, &caps_word, 13 16)
-        COMBO(capslock, &kp CAPSLOCK, 0 9)
-/* deletion */
-        COMBO(bspc, &kp BSPC, 6 7)
-        COMBO(del, &kp DEL, 7 8)
-        COMBO(bspcword, &kp LC(BSPC), 6 8)
-
-    };
-};
-
-
-/ {
 
     behaviors {
         hl: homerow_mods_left {
