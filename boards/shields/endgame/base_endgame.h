@@ -4,7 +4,7 @@
 #include <dt-bindings/zmk/outputs.h>
 #include "keys_de.h"
 
-#define APT 0
+#define QWE 0
 #define NUM 1
 #define NAV 2
 #define SYM 3
